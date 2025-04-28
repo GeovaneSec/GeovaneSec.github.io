@@ -10,16 +10,14 @@ const projects = [
     title: "B3API",
     description: "API RESTful para consulta de dados do mercado financeiro brasileiro (B3).",
     icon: faServer,
-    tags: ["Node.js", "API", "Finance"],
     link: "https://b3api.me",
-    github: "https://github.com/GeovaneSec/B3API", 
+    github: "https://github.com/Geovane2Sec/B3API", 
     demoEnabled: true
   },
   {
     title: "Little Dolly Website",
     description: "Website moderno desenvolvido para a banda Little Dolly, com design personalizado e otimizado para divulgação de conteúdo musical.",
     icon: faMusic,
-    tags: ["HtTML", "CSS", "Cloudflare"],
     link: "",
     github: "https://github.com/bandalittledolly/Website",
     demoEnabled: false
@@ -28,9 +26,8 @@ const projects = [
     title: "FlexTux Bot",
     description: "Bot Discord desenvolvido com comandos de diversão, utilidades, economia e moderação para servidores.",
     icon: faDiscord,
-    tags: ["Node.js", "Discord.js"],
     link: "",
-    github: "https://github.com/GeovaneSec/FlexTux",
+    github: "https://github.com/Geovane2Sec/FlexTux",
     demoEnabled: false
   }
 ];
@@ -45,14 +42,14 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent blur-3xl"></div>
           <div className="text-center space-y-6 sm:space-y-10 max-w-4xl mx-auto relative z-10">
             <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 text-transparent bg-clip-text animate-gradient tracking-tight">
-              GeovaneSec
+              Geovane2Sec
             </h1>
             <p className="text-xl sm:text-2xl md:text-3xl text-gray-300 leading-relaxed max-w-3xl mx-auto font-light px-4">
               Desenvolvedor Web focado em projetos open-source e self-hosted.
             </p>
             <div className="flex gap-4 sm:gap-8 justify-center pt-6 sm:pt-10">
               <a 
-                href="https://github.com/GeovaneSec" 
+                href="https://github.com/Geovane2Sec" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 hover:from-cyan-500/20 hover:to-blue-500/20 border border-cyan-500/20 hover:border-cyan-400 rounded-xl text-base sm:text-lg font-medium text-gray-300 hover:text-white transition-all duration-300 flex items-center group backdrop-blur-xl shadow-lg hover:shadow-cyan-500/25"
@@ -115,17 +112,6 @@ export default function HomePage() {
                   {project.title}
                 </h3>
                 <p className="text-gray-300 mb-6 sm:mb-8 leading-relaxed min-h-[4rem] text-base sm:text-lg">{project.description}</p>
-                
-                <div className="flex flex-wrap gap-2 sm:gap-3 mb-6 sm:mb-8">
-                  {project.tags.map((tag, tagIndex) => (
-                    <span 
-                      key={tagIndex}
-                      className="px-4 sm:px-5 py-1.5 sm:py-2 text-xs sm:text-sm bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-xl text-cyan-300 border border-cyan-500/20 shadow-lg shadow-cyan-500/5 hover:from-cyan-500/20 hover:to-blue-500/20 transition-colors duration-300"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
 
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-auto">
                   {project.demoEnabled && (

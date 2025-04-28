@@ -9,12 +9,12 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "GeovaneSec - Desenvolvedor Web | Projetos Open-Source",
+  title: "Geovane2Sec - Desenvolvedor Web | Projetos Open-Source",
   description: "Portfólio profissional de Geovane, desenvolvedor web especializado em projetos self-hosted e open-source. Conheça meus projetos e experiência em desenvolvimento web seguro.",
   keywords: "desenvolvedor web, self-hosted, open-source, portfolio, programação, desenvolvimento, segurança, full-stack, frontend, backend, DevOps, cybersecurity",
-  authors: [{ name: "GeovaneSec", url: "https://github.com/GeovaneSec" }],
-  creator: "GeovaneSec",
-  publisher: "GeovaneSec",
+  authors: [{ name: "Geovane2Sec", url: "https://github.com/Geovane2Sec" }],
+  creator: "Geovane2Sec",
+  publisher: "Geovane2Sec",
   robots: {
     index: true,
     follow: true,
@@ -27,21 +27,21 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://geovanebr.me',
+    canonical: 'https://geovane2sec.me',
   },
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://geovanebr.me",
-    title: "GeovaneSec - Desenvolvedor Web | Projetos Self-Hosted e Open-Source",
+    url: "https://geovane2sec.me",
+    title: "Geovane2Sec - Desenvolvedor Web | Projetos Self-Hosted e Open-Source",
     description: "Portfólio profissional de Geovane, desenvolvedor web especializado em projetos self-hosted e open-source. Conheça meus projetos, habilidades técnicas e experiência em desenvolvimento web seguro.",
-    siteName: "GeovaneSec Portfolio",
+    siteName: "Geovane2Sec Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    site: "GeovaneSec",
-    creator: "GeovaneSec",
-    title: "GeovaneSec - Desenvolvedor Web | Projetos Self-Hosted e Open-Source",
+    site: "Geovane2Sec",
+    creator: "Geovane2Sec",
+    title: "Geovane2Sec - Desenvolvedor Web | Projetos Self-Hosted e Open-Source",
     description: "Portfólio profissional de Geovane, desenvolvedor web especializado em projetos self-hosted e open-source.",
   },
 };

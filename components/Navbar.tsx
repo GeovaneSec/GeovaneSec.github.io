@@ -30,7 +30,7 @@ export default function Navbar() {
             <div className="container mx-auto px-6">
                 <div className="flex justify-between items-center h-20">
                     <a href="/" className="text-2xl font-bold transition-all duration-300 flex items-center group">
-                        <span className="tracking-wide bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 text-transparent bg-clip-text group-hover:from-cyan-400 group-hover:via-blue-500 group-hover:to-purple-600 transform group-hover:scale-105 transition-all duration-300">GeovaneSec</span>
+                        <span className="tracking-wide bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 text-transparent bg-clip-text group-hover:from-cyan-400 group-hover:via-blue-500 group-hover:to-purple-600 transform group-hover:scale-105 transition-all duration-300">Geovane2Sec</span>
                     </a>
 
                     <div className="hidden md:flex items-center space-x-8">
@@ -49,7 +49,7 @@ export default function Navbar() {
                             <div className="mt-1 h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-300"></div>
                         </a>
                         <a 
-                            href="https://github.com/GeovaneSec" 
+                            href="https://github.com/Geovane2Sec" 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-6 py-2.5 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 hover:from-cyan-500/20 hover:to-blue-500/20 border border-cyan-500/20 hover:border-cyan-400 rounded-xl font-medium text-gray-300 hover:text-white transition-all duration-300 flex items-center space-x-2 group shadow-lg hover:shadow-cyan-500/25"
@@ -112,7 +112,7 @@ export default function Navbar() {
                         </a>
                         
                         <a 
-                            href="https://github.com/GeovaneSec"
+                            href="https://github.com/Geovane2Sec"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block group"

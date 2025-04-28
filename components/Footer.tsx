@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           <div className="text-center md:text-left">
             <a href="/" className="inline-block text-2xl font-bold transition-all duration-300">
-              <span className="tracking-wide bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 text-transparent bg-clip-text hover:from-cyan-400 hover:via-blue-500 hover:to-purple-600">GeovaneSec</span>
+              <span className="tracking-wide bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 text-transparent bg-clip-text hover:from-cyan-400 hover:via-blue-500 hover:to-purple-600">Geovane2Sec</span>
             </a>
             <p className="text-gray-300 mt-6 leading-relaxed text-lg">
               Desenvolvedor apaixonado por tecnologia, segurança e projetos open-source. Criando soluções open source para um mundo digital melhor.
@@ -39,7 +39,7 @@ export default function Footer() {
               </li>
               <li className="flex md:justify-end justify-center">
                 <a
-                  href="https://github.com/geovanesec"
+                  href="https://github.com/Geovane2Sec"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-cyan-400 transition-all duration-300 flex items-center space-x-3 group px-4 py-2 rounded-xl hover:bg-cyan-500/5"
@@ -54,7 +54,7 @@ export default function Footer() {
 
         <div className="text-center pt-8 border-t border-gray-800/30">
           <p className="text-gray-400 flex items-center justify-center gap-4 text-sm font-medium">
-            <span>&copy; {new Date().getFullYear()} GeovaneSec. Todos os direitos reservados.</span>
+            <span>&copy; {new Date().getFullYear()} Geovane2Sec. Todos os direitos reservados.</span>
           </p>
         </div>
       </div>
