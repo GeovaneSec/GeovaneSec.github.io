@@ -7,6 +7,14 @@ import { faExternalLinkAlt, faServer, faMusic } from '@fortawesome/free-solid-sv
 
 const projects = [
   {
+    title: "LinkPure",
+    description: "A tool that removes link tracking, focused on online shopping sites. It also removes affiliate links.",
+    icon: faGithub,
+    link: "https://linkpure.g2dev.me",
+    github: "https://github.com/Geovane2Dev/LinkPure",
+    demoEnabled: true
+  },
+  {
     title: "B3API",
     description: "RESTful API for querying data from the Brazilian financial market (B3).",
     icon: faServer,
@@ -29,15 +37,7 @@ const projects = [
     link: "",
     github: "https://github.com/Geovane2Dev/FlexTux",
     demoEnabled: false
-  },
-  {
-    title: "LinkPure",
-    description: "A tool that removes link tracking, focused on online shopping sites. It also removes affiliate links.",
-    icon: faGithub,
-    link: "https://linkpure.g2dev.me",
-    github: "https://github.com/Geovane2Dev/LinkPure",
-    demoEnabled: true
-  },
+  }
 ];
 
 export default function HomePage() {
