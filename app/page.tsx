@@ -34,7 +34,7 @@ const projects = [
     title: "LinkPure",
     description: "A tool that removes link tracking, focused on online shopping sites. It also removes affiliate links.",
     icon: faGithub,
-    link: "linkpure.g2dev.me",
+    link: "https://linkpure.g2dev.me",
     github: "https://github.com/Geovane2Dev/LinkPure",
     demoEnabled: true
   },
