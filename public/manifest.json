@@ -1,7 +1,7 @@
 {
-  "name": "GeovaneSec - Desenvolvedor Web | Projetos Self-Hosted e Open-Source",
-  "short_name": "GeovaneSec",
-  "description": "Portfólio profissional de Geovane, desenvolvedor web especializado em projetos self-hosted e open-source.",
+  "name": "Geovane2Dev - Web Developer | Self-Hosted and Open-Source Projects",
+  "short_name": "Geovane2Dev",
+  "description": "Professional portfolio of Geovane, a web developer specialized in self-hosted and open-source projects.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",
@@ -9,14 +9,14 @@
   "orientation": "portrait",
   "shortcuts": [
     {
-      "name": "Projetos",
+      "name": "Projects",
       "url": "/#projects",
-      "description": "Ver projetos"
+      "description": "View featured projects"
     }
   ],
-  "lang": "pt-BR",
+  "lang": "en-US",
   "dir": "ltr",
   "categories": ["portfolio", "development", "technology"],
   "screenshots": [],
   "prefer_related_applications": false
-} 
+}

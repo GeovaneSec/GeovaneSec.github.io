@@ -30,7 +30,7 @@ export default function Navbar() {
             <div className="container mx-auto px-6">
                 <div className="flex justify-between items-center h-20">
                     <a href="/" className="text-2xl font-bold transition-all duration-300 flex items-center group">
-                        <span className="tracking-wide bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 text-transparent bg-clip-text group-hover:from-cyan-400 group-hover:via-blue-500 group-hover:to-purple-600 transform group-hover:scale-105 transition-all duration-300">Geovane2Sec</span>
+                        <span className="tracking-wide bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 text-transparent bg-clip-text group-hover:from-cyan-400 group-hover:via-blue-500 group-hover:to-purple-600 transform group-hover:scale-105 transition-all duration-300">Geovane2Dev</span>
                     </a>
 
                     <div className="hidden md:flex items-center space-x-8">
@@ -44,12 +44,12 @@ export default function Navbar() {
                         <a href="#projects" className="nav-link group px-4 py-2 rounded-xl hover:bg-gradient-to-r hover:from-cyan-500/5 hover:to-blue-500/5 transition-all duration-300">
                             <div className="flex items-center space-x-2 text-gray-300 group-hover:text-cyan-400">
                                 <FontAwesomeIcon icon={faProjectDiagram} className="w-4 h-4 transform group-hover:scale-110 transition-transform duration-300" />
-                                <span className="font-medium">Projetos</span>
+                                <span className="font-medium">Projects</span>
                             </div>
                             <div className="mt-1 h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-300"></div>
                         </a>
                         <a 
-                            href="https://github.com/Geovane2Sec" 
+                            href="https://github.com/Geovane2Dev" 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-6 py-2.5 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 hover:from-cyan-500/20 hover:to-blue-500/20 border border-cyan-500/20 hover:border-cyan-400 rounded-xl font-medium text-gray-300 hover:text-white transition-all duration-300 flex items-center space-x-2 group shadow-lg hover:shadow-cyan-500/25"
@@ -107,12 +107,12 @@ export default function Navbar() {
                                     icon={faProjectDiagram} 
                                     className="w-5 h-5 mr-4 text-cyan-400 group-hover:scale-110 transition-transform duration-300" 
                                 />
-                                <span className="text-base font-medium text-gray-300 group-hover:text-cyan-400">Projetos</span>
+                                <span className="text-base font-medium text-gray-300 group-hover:text-cyan-400">Projects</span>
                             </div>
                         </a>
                         
                         <a 
-                            href="https://github.com/Geovane2Sec"
+                            href="https://github.com/Geovane2Dev"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block group"

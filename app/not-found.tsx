@@ -21,10 +21,10 @@ export default function NotFound() {
             </div>
             <div className="space-y-6">
               <p className="text-3xl md:text-4xl text-gray-200 font-semibold">
-                Página não encontrada
+                Page not found
               </p>
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto font-light">
-                Desculpe, mas a página que você está procurando não existe ou foi movida.
+                Sorry, but the page you're looking for doesn't exist or has been moved.
               </p>
             </div>
             <div className="flex gap-8 justify-center pt-10">
@@ -36,7 +36,7 @@ export default function NotFound() {
                   icon={faHome} 
                   className="mr-3 w-6 h-6 group-hover:scale-110 transition-all duration-300" 
                 />
-                Retornar à Página Inicial
+                Back to start page
               </Link>
             </div>
           </div>

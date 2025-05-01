@@ -54,5 +54,5 @@ Allow: /
 Crawl-delay: 10
 
 # Site information
-Sitemap: https://geovanebr.me/sitemap.xml
-Host: https://geovanebr.me
+Sitemap: https://g2dev.me/sitemap.xml
+Host: https://g2dev.me

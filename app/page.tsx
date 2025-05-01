@@ -8,15 +8,15 @@ import { faExternalLinkAlt, faServer, faMusic } from '@fortawesome/free-solid-sv
 const projects = [
   {
     title: "B3API",
-    description: "API RESTful para consulta de dados do mercado financeiro brasileiro (B3).",
+    description: "RESTful API for querying data from the Brazilian financial market (B3).",
     icon: faServer,
-    link: "https://b3api.me",
-    github: "https://github.com/Geovane2Sec/B3API", 
-    demoEnabled: true
+    link: "",
+    github: "https://github.com/Geovane2Dev/B3API", 
+    demoEnabled: false
   },
   {
     title: "Little Dolly Website",
-    description: "Website moderno desenvolvido para a banda Little Dolly, com design personalizado e otimizado para divulgação de conteúdo musical.",
+    description: "Modern website developed for the band Little Dolly, with a custom design and optimized for music content promotion.",
     icon: faMusic,
     link: "",
     github: "https://github.com/bandalittledolly/Website",
@@ -24,12 +24,20 @@ const projects = [
   },
   {
     title: "FlexTux Bot",
-    description: "Bot Discord desenvolvido com comandos de diversão, utilidades, economia e moderação para servidores.",
+    description: "Discord bot developed with fun, utility, economy, and moderation commands for servers.",
     icon: faDiscord,
     link: "",
-    github: "https://github.com/Geovane2Sec/FlexTux",
+    github: "https://github.com/Geovane2Dev/FlexTux",
     demoEnabled: false
-  }
+  },
+  {
+    title: "LinkPure",
+    description: "A tool that removes link tracking, focused on online shopping sites. It also removes affiliate links.",
+    icon: faGithub,
+    link: "linkpure.g2dev.me",
+    github: "https://github.com/Geovane2Dev/LinkPure",
+    demoEnabled: true
+  },
 ];
 
 export default function HomePage() {
@@ -42,14 +50,14 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent blur-3xl"></div>
           <div className="text-center space-y-6 sm:space-y-10 max-w-4xl mx-auto relative z-10">
             <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 text-transparent bg-clip-text animate-gradient tracking-tight">
-              Geovane2Sec
+              Geovane2Dev
             </h1>
             <p className="text-xl sm:text-2xl md:text-3xl text-gray-300 leading-relaxed max-w-3xl mx-auto font-light px-4">
-              Desenvolvedor Web focado em projetos open-source e self-hosted.
+              Web developer focused on open-source and self-hosted projects.
             </p>
             <div className="flex gap-4 sm:gap-8 justify-center pt-6 sm:pt-10">
               <a 
-                href="https://github.com/Geovane2Sec" 
+                href="https://github.com/Geovane2Dev" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 hover:from-cyan-500/20 hover:to-blue-500/20 border border-cyan-500/20 hover:border-cyan-400 rounded-xl text-base sm:text-lg font-medium text-gray-300 hover:text-white transition-all duration-300 flex items-center group backdrop-blur-xl shadow-lg hover:shadow-cyan-500/25"
@@ -68,7 +76,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-500/5 via-transparent to-transparent"></div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-12 sm:mb-20 text-center relative">
             <span className="relative pb-4 bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 text-transparent bg-clip-text">
-              Projetos em Destaque
+            Featured Projects
               <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 sm:w-24 h-1 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
             </span>
           </h2>
@@ -122,7 +130,7 @@ export default function HomePage() {
                       className="w-full sm:flex-1 py-3 px-6 text-center rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm sm:text-base font-semibold hover:from-cyan-600 hover:to-blue-600 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/25 active:scale-[0.98] flex items-center justify-center gap-2"
                     >
                       <FontAwesomeIcon icon={faExternalLinkAlt} className="w-4 h-4" />
-                      <span>Acessar o Site</span>
+                      <span>Visit Website</span>
                     </a>
                   )}
                   <a 
