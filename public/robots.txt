@@ -1,4 +1,3 @@
-# Block specific bots
 User-agent: AI2Bot
 Disallow: /
 
@@ -153,6 +152,73 @@ User-agent: MauiBot
 Disallow: /
 
 User-agent: ia_archiver
+Disallow: /
+
+# Additional blocked bots (from the newer version only)
+User-agent: Ai2Bot-Dolma
+Disallow: /
+
+User-agent: aiHitBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+User-agent: Cotoyogi
+Disallow: /
+
+User-agent: Crawlspace
+Disallow: /
+
+User-agent: Factset_spyderbot
+Disallow: /
+
+User-agent: FirecrawlAgent
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: GoogleOther-Image
+Disallow: /
+
+User-agent: GoogleOther-Video
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: imgproxy
+Disallow: /
+
+User-agent: ISSCyberRiskCrawler
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: NovaAct
+Disallow: /
+
+User-agent: Operator
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: SemrushBot-SWA
+Disallow: /
+
+User-agent: TikTokSpider
 Disallow: /
 
 # Allow good bots
