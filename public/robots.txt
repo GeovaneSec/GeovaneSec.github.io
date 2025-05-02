@@ -249,4 +249,3 @@ Crawl-delay: 10
 
 # Site information
 Sitemap: https://g2dev.me/sitemap.xml
-Host: https://g2dev.me
