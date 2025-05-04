@@ -18,9 +18,9 @@ const projects = [
     title: "B3API",
     description: "RESTful API for querying data from the Brazilian financial market (B3).",
     icon: faServer,
-    link: "",
+    link: "https://b3api.g2dev.me",
     github: "https://github.com/Geovane2Dev/B3API", 
-    demoEnabled: false
+    demoEnabled: true
   },
   {
     title: "Little Dolly Website",
